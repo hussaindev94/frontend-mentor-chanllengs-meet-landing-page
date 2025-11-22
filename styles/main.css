@@ -1,0 +1,14 @@
+/* Custom CSS Variables */
+:root {
+  /* Typography Variables */
+  /* Color Variables */
+  /* Spacing Variables */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: red;
+}
