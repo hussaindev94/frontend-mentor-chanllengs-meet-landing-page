@@ -1,9 +1,31 @@
 /* Tablet Styles Layout */
-@media (min-width: 43rem) {
-
+@media (min-width: 48rem) {
+  body {
+    .main {
+      .nav {
+      }
+      .hero {
+      }
+      .main-content {
+      }
+    }
+    .footer {
+    }
+  }
 }
 
 /* Desktop Styles Layout */
 @media (min-width: 76rem) {
-
+  body {
+    .main {
+      .nav {
+      }
+      .hero {
+      }
+      .main-content {
+      }
+    }
+    .footer {
+    }
+  }
 }

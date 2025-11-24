@@ -110,6 +110,7 @@ body {
       }
     }
     .hero {
+      overflow: hidden;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -139,7 +140,7 @@ body {
           align-self: center;
           height: 16rem;
 
-          width: 43.3rem;
+          width: 46.3rem;
 
           .compind-hero-img {
             width: 43.3rem;
