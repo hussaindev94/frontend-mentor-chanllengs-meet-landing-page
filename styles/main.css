@@ -302,8 +302,8 @@ body {
     height: fit-content;
 
     .number {
-      position: absolute;
-      bottom: -89.5rem;
+      position: relative;
+      bottom: -10.5rem;
       .circle {
         background: var(--white);
       }
