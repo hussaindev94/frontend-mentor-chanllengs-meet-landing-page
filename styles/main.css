@@ -307,8 +307,8 @@ body {
       }
     }
     .footer-hero {
-      position: relative;
-      bottom: -10.7rem;
+      position: absolute;
+      bottom: -122.7rem;
       z-index: -2;
       background: url(../assets/mobile/image-footer.jpg) lightgray 50% -2% / cover
         no-repeat;
