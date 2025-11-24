@@ -299,6 +299,8 @@ body {
     justify-content: center;
     align-items: center;
     align-self: stretch;
+    height: fit-content;
+
     .number {
       position: absolute;
       bottom: -89.5rem;
