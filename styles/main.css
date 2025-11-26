@@ -97,7 +97,7 @@ body {
     .nav {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
       align-self: stretch;
       gap: var(--spacing-100);
@@ -137,8 +137,8 @@ body {
           justify-content: center;
           align-items: center;
           align-self: center;
+          /*Test the height and width of the image and image container in mobile layout*/
           height: 16rem;
-
           width: 46.3rem;
 
           .compind-hero-img {
@@ -311,18 +311,19 @@ body {
       }
     }
     .footer-hero {
-      position: absolute;
-      bottom: -41.7rem;
-      z-index: -2;
-      background: url(../assets/mobile/image-footer.jpg) lightgray 50% -2% / cover
-        no-repeat;
-
       display: flex;
       flex-direction: column;
       align-items: center;
       align-self: stretch;
       gap: var(--spacing-800);
       padding: var(--spacing-800) var(--spacing-400);
+
+      position: absolute;
+      bottom: -41.7rem;
+      z-index: -2;
+      background: url(../assets/mobile/image-footer.jpg) lightgray 50% -2% / cover
+        no-repeat;
+
 
       .footer-content {
         display: flex;
